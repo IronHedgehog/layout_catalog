@@ -7,7 +7,7 @@
 
     gap: $things__gaps;
 
-    padding: 50px 40px;
+    padding: $things-list-padding;
 
     @media (min-width: $small__screen) {
       grid-template-columns: repeat(2, $card-width);

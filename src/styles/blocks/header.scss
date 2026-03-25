@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 50px;
+  padding: $header-paddings;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
   height: $header__link--height;
 }
@@ -34,9 +34,9 @@
 
   position: relative;
 
-  font-family: Roboto, sans-serif;
+  font-family: $main-font;
   font-style: normal;
-  font-size: 12px;
+  font-size: $main-font-size;
   font-weight: 500;
 
   text-decoration: none;

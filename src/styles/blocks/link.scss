@@ -8,11 +8,11 @@
 
   // padding: 12px 0;
   background-color: $accent-color;
-  border-radius: 5px;
+  border-radius: $link-border-radius;
 
   text-decoration: none;
 
-  font-family: Roboto, sans-serif;
+  font-family: $main-font;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -25,9 +25,9 @@
   color: $link-color;
 
   transition:
-    background-color 300ms ease-in,
-    border 300ms ease-in,
-    color 300ms ease-in;
+    background-color $transition-timing ease-in,
+    border $transition-timing ease-in,
+    color $transition-timing ease-in;
 
   &:hover {
     background-color: $card-background-color;
