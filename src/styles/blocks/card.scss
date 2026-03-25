@@ -1,11 +1,9 @@
 .card {
-  display: flex;
-  flex-direction: column;
   max-width: $card-width;
   height: 100%;
   box-sizing: border-box;
   padding: $card-padding;
-  background: $card-background-color;
+  background-color: $card-background-color;
   border: $card-border-width solid $card-border-color;
   border-radius: $card-border-radius;
   transition: transform $transition-timing ease-in;
@@ -20,11 +18,10 @@
     margin: 0 auto 40px;
     width: 160px;
     height: 134px;
-    object-fit: contain;
   }
 
   &__title {
-    margin-bottom: 4px;
+    margin: 0 0 4px;
     font-family: $main-font;
     font-weight: $card-title-fontWeight;
     font-size: $main-font-size;
@@ -40,6 +37,7 @@
   &__product-code {
     margin-bottom: 16px;
     font-family: $main-font;
+    font-weight: $product-code-fw;
     font-size: 10px;
     line-height: 14px;
     color: $secondary-color;
